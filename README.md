@@ -8,7 +8,7 @@ The following is a step-by-step tutorial on how to setup and deploy a ubuntu ser
 
 ## Connecting to the virtual machine
 1. Open the terminal or command prompt on your computer.
-2. Type "ssh username@publicIPaddress. Ther username is the one you created for the virtual machine in Part 1 and the Public IP address of your VM can be found in the Overview section in the Azure portal.
+2. Type "ssh username@ipaddress. Ther username is the one you created for the virtual machine in Part 1 and the Public IP address of your VM can be found in the Overview section in the Azure portal.
 
 ## Installing MySQL and creating a new user
 1. Once connected, type in the command "sudo apt-get update" to update the Ubuntu server.
