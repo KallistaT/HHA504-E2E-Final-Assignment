@@ -24,10 +24,15 @@ The following is a step-by-step tutorial on how to setup and deploy a ubuntu ser
 ## Write a Python script that connects to your MySQL instance
 1. In a Jupyter Notebook or Python IDE import the relevant packages (as shown in the Jupyter Notebook provided in this repo).  
 2. For the code to connect to the MySQL instance: 
+
 MYSQL_HOSTNAME = Your VM's Public IP address
+
 MYSQL_USER = The username you made when creating your VM
+
 MYSQL_PASSWORD = The password you made when creating your VM
+
 MYSQL_DATABASE = The table you created ("e2e" in this exercise)
+
 3. Follow the rest of the code as shown in the notebook.
 4. Run the code. You will see a "Connection refused" error message.
 
