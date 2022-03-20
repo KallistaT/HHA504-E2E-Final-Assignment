@@ -51,7 +51,7 @@ MYSQL_DATABASE = The table you created ("e2e" in this exercise)
 2. Back in your terminal, connect to the second virtual machine using the "ssh username@ipaddress" command.
 3. Go back to the first VM and create a dump file by typing "sudo mysqldump e2e > nameofbackupfile.sql". 
 4. Type "ls" to list the files and confirm the creation of the .sql file.
-5. You can look at the file with the "nano nameofbackupfile.sql" command.
+5. You can view the file with the "nano nameofbackupfile.sql" command.
 6. Send this file to the second virtual machine you created by typing "scp nameofbackupfile.sql username@ipaddress:/home/username". 
 7. After pressing enter, type in the password for your second VM when prompted. 
 8. Verify that the backup file has been successfully sent to the second VM by typing "ls".
